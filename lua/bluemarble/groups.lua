@@ -10,6 +10,7 @@ function M.color_groups()
     set_hl("Normal", { fg = c.white, bg = c.bg })
     set_hl("Visual", { bg = c.highlight })
     set_hl("NormalFloat", { bg = c.brightbg })
+    set_hl("StatusLine", { fg = c.white, bg = c.brightbg })
 
     set_hl("Function", { fg = c.cyan })
     set_hl("Type", { fg = c.cyan })

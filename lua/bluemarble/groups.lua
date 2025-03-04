@@ -5,9 +5,12 @@ local function set_hl(group, styles)
 end
 
 function M.color_groups()
-    local c = require("binary.palette").dark()
+    local c = require("bluemarble.palette").dark()
 
     set_hl("Normal", { fg = c.white, bg = c.bg })
+    set_hl("Visual", { bg = c.highlight })
+    set_hl("NormalFloat", { bg = c.brightbg })
+
     set_hl("Function", { fg = c.cyan })
     set_hl("Type", { fg = c.cyan })
     set_hl("Identifier", { fg = c.green })

@@ -2,7 +2,9 @@ local M = {}
 
 local dark = {
     bg = "#111111",
+    brightbg = "#1a1a1a",
     fg = "#dedede",
+    highlight = "#202020",
     black = "#919191",
     red = "#e17373",
     green = "#94b978",
